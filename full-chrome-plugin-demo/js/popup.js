@@ -89,6 +89,11 @@ $('#open_url_new_tab').click(() => {
 	chrome.tabs.create({url: 'https://www.baidu.com'});
 });
 
+// 新标签打开网页
+$('#open_url_new_tab').click(() => {
+	chrome.tabs.create({url: 'https://www.baidu.com'});
+});
+
 // 当前标签打开网页
 $('#open_url_current_tab').click(() => {
 	getCurrentTabId(tabId => {
